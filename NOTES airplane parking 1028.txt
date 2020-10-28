@@ -1,0 +1,63 @@
+JET PARKING
+The Story: 
+Due to Covid an airline needs to mothball their 747ish sized fleet and all they can lease is apron space marked up for  for 16 smaller 737ish sized planes.
+The Lot being considered is a 2 by 8 with Taxiways front and aft. They want easy access if all clears and they can redeploy so no odd angles and weird nesting
+
+Rough map:
+
+Taxiway Alpha ------------------------>-to Runways
+1         2          3        4     5      6     7   8  
+9     10       11      12      13      14   15   16  
+Taxiway Bravo ------------------------------> to Runways
+
+
+It doesnt matter if a wingtip extends outside the group,, over the grass,  but can't interfere on the inside with any of the other on the lot.
+It doesnt matter if a nose extends into athe spot infront , they'll go nose to nose, off set a bit. It's the wing tips that are a problem
+
+
+1 How many big planes can you parl in the16  spots. How many configurations and  give them.
+
+HOW I SOLVED:
+
+Ran my 2 row VGA (Victoria G's Antenna type) Leap Pairs Generator
+Edited line 5  for title  JET PARKING 
+Set at 16 line 15
+Edited reporting reqirements line 110 and below
+
+Got the following pairs:
+([(1, 2 ),(2, 3 ),(3, 4 ),(4, 5 ),(5, 6 ),(6, 7 ),(7, 8 ),(9, 10 ),(10, 11 ),(11, 12 ),(12, 13 ),(13, 14 ),(14, 15 ),(15, 16 ),(1, 9 ),(2, 10 ),(3, 11 ),(4, 12 ),(5, 13 ),(6, 14 ),(7, 15 ),(8, 16 ),(1, 10 ),(2, 11 ),(3, 12 ),(4, 13 ),(5, 14 ),(6, 15 ),(7, 16 ),(2, 9 ),(3, 10 ),(4, 11 ),(5, 12 ),(6, 13 ),(7, 14 ),(8, 15 ),])
+
+problem: last comma has to go. After(8,15)Can't figure that out quickly this morning with code without making a mess, just I'll just edit out.  Get:
+([(1, 2 ),(2, 3 ),(3, 4 ),(4, 5 ),(5, 6 ),(6, 7 ),(7, 8 ),(9, 10 ),(10, 11 ),(11, 12 ),(12, 13 ),(13, 14 ),(14, 15 ),(15, 16 ),(1, 9 ),(2, 10 ),(3, 11 ),(4, 12 ),(5, 13 ),(6, 14 ),(7, 15 ),(8, 16 ),(1, 10 ),(2, 11 ),(3, 12 ),(4, 13 ),(5, 14 ),(6, 15 ),(7, 16 ),(2, 9 ),(3, 10 ),(4, 11 ),(5, 12 ),(6, 13 ),(7, 14 ),(8, 15 )])
+
+VGA Template
+Copied to Project directory
+Edited with desc and copied pairs to  the magic line 
+
+LOGGED ON TO GITHUB
+Started a new Repo
+Readme  is top couple lines this file 
+Uploaded Solver and VGA template 
+
+LOGGED INTO LEAP to get that prefix thing?
+May not need to -
+picked these lines off yesterdays production notes
+-------
+Add Leap prexit to html address at Github to open  Repo in Git 
+ala
+Prefix the URL in the address bar of your browser with: htZZtps://ide.dwavesys.io/#
+----------
+will upload 2 py files and try prefix bit. 
+Note that the ZZs get pulled
+Nope - only took me to the Leap log , but started after I did
+
+Ran got error   missed a # on thecopyright line, fixed
+Ran a number of  Times 
+Got Same answer for capacity   =  4 planes 
+But always a different configurations on the grid
+
+Took screen caps and made notes on them 
+
+Final save and upload of this file and screen caps
+
+
